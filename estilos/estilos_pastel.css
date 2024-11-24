@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ee; /* Fondo pastel claro */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: #ffffff; /* Fondo blanco para contraste */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #6a8caf; /* Azul pastel */
+}
+
+/* Buttons */
+button {
+    background-color: #a8d5e2; /* Azul pastel claro */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.active {
+    background-color: #a5b4fc; /* Azul pastel más intenso */
+}
+
+button:hover {
+    background-color: #c3edfa; /* Azul más claro al pasar el ratón */
+}
+
+/* Forms */
+.form {
+    margin-top: 20px;
+}
+
+.form.hidden {
+    display: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f7f9fb; /* Fondo pastel claro */
+}
+
+input::placeholder {
+    color: #bbb; /* Color del placeholder */
+}
+
+button[type="submit"] {
+    background-color: #f9c5d5; /* Rosa pastel */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover {
+    background-color: #e8a4bd; /* Rosa más intenso */
+}
